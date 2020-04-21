@@ -1,0 +1,27 @@
+@media (max-width: 900px) { /*at most 640px*/
+    .Main-header {
+        background-color: hotpink;
+        width: 750px;
+    }
+    :root {
+        --site-width: 750px;
+    }
+    .navbar {
+        width: 750px;
+    }
+
+    .headshot {
+        height: 175px;
+        width: 175px;
+        top: 150px;
+    }
+    @media (min-width: 1400px) {
+        :root {
+            --site-width: 1000px;
+        }
+    }
+    .Main-header {
+        background-color: hotpink;
+        width: 750px;
+    }   
+}
